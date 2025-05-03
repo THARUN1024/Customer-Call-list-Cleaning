@@ -1,13 +1,14 @@
-# Customer Call List Cleaning with Pandas
+## Overview
 
-## Project Overview
-This project processes and cleans a customer call list from an Excel file using Pandas. The dataset contains customer details such as names, phone numbers, addresses, and customer status. The script ensures data consistency, removes duplicates, formats phone numbers, and filters out unwanted records.
+This project cleans and processes a customer call list from an Excel file using Pandas. The dataset includes customer details like names, phone numbers, addresses, and status. The script makes sure the data is consistent, removes duplicates, formats phone numbers, and filters out unnecessary records.
 
 ## Features
-- Removes duplicate records
-- Cleans up last names by stripping unwanted characters (`123./`)
-- Formats phone numbers to `XXX-XXX-XXXX` format
-- Splits the `Address` column into `Street_Address`, `State`, and `Zip Code`
-- Standardizes `Paying Customer` and `Do_Not_Contact` values (`Yes` or `No`)
-- Removes invalid phone numbers and customers marked as "Do Not Contact"
-- Fills missing values with an empty string
+
+- Removes duplicate customer records
+- Cleans last names by removing unwanted characters (`123./`)
+- Formats phone numbers to a standard `XXX-XXX-XXXX` format
+- Splits the address into separate columns: `Street Address`, `State`, and `Zip Code`
+- Standardizes customer status values like `Paying Customer` and `Do Not Contact` to `Yes` or `No`
+- Removes invalid phone numbers and customers who are marked as "Do Not Contact"
+- Fills in missing values with an empty string
+
