@@ -2,7 +2,7 @@
 
 This project cleans and processes a customer call list from an Excel file using Pandas. The dataset includes customer details like names, phone numbers, addresses, and status. The script makes sure the data is consistent, removes duplicates, formats phone numbers, and filters out unnecessary records.
 
-## Features
+## Actions Taken
 
 - Removes duplicate customer records
 - Cleans last names by removing unwanted characters (`123./`)
